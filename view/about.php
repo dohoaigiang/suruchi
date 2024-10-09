@@ -29,7 +29,7 @@
                             </div>
                             <div class="about__thumb--items position__relative">
                                 <img class="about__thumb--img border-radius-5 display-block" src="./view/assets/img/other/tintuc11.jpg" alt="about-thumb">
-                                <!-- <div class="banner__bideo--play about__thumb--play">
+                                <!--<div class="banner__bideo--play about__thumb--play">
                                     <a class="banner__bideo--play__icon about__thumb--play__icon glightbox" href="https://vimeo.com/115041822" data-gallery="video">
                                         <svg id="play" xmlns="http://www.w3.org/2000/svg" width="40.302" height="40.302" viewBox="0 0 46.302 46.302">
                                             <g id="Group_193" data-name="Group 193" transform="translate(0 0)">
@@ -53,23 +53,23 @@
                                         </svg>
                                         <span class="visually-hidden">Video</span>
                                     </a>
-                                </div> -->
+                                </div>-->
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="about__content">
                             <span class="about__content--subtitle text__secondary mb-20">Tại sao chọn chúng tôi ?</span>
-                            <h2 class="about__content--maintitle mb-25">Một website bán  chuyên về các loại đồng hồ nam nữ, mang đến cho bạn sự lựa chọn đa dạng và phong cách độc đáo.</h2>
+                            <h2 class="about__content--maintitle mb-25">Một website bán chuyên về các loại đồng hồ nam nữ, mang đến cho bạn sự lựa chọn đa dạng và phong cách độc đáo.</h2>
                             <p class="about__content--desc mb-20">Với Bạch Dương, chúng tôi cam kết mang đến cho bạn những sản phẩm thời trang chất lượng cao, đồng hồ được thiết kế tỉ mỉ và chăm chút từng chi tiết. Với sự tận tâm và chuyên nghiệp, đội ngũ nhân viên của chúng tôi luôn sẵn sàng hỗ trợ bạn trong quá trình mua sắm.</p>
-                            <!-- <p class="about__content--desc mb-25">Chúng tôi tự hào về sự đa dạng của bộ sưu tập đồng hồ của mình, từ đồng hồ thanh lịch cho nam giới và nữ giới. Bất kể bạn muốn tìm kiếm mộtchiếc đồng hồ, dạo phố hay trang phục dự tiệc, Bạch Dương luôn có những lựa chọn phù hợp với sở thích và phong cách của bạn.</p> -->
-                            <div class="about__author position__relative d-flex align-items-center">
+                            <p class="about__content--desc mb-25">Chúng tôi tự hào về sự đa dạng của bộ sưu tập đồng hồ của mình, từ đồng hồ thanh lịch cho nam giới và nữ giới. Bất kể bạn muốn tìm kiếm một chiếc đồng hồ, dạo phố hay trang phục dự tiệc, Bạch Dương luôn có những lựa chọn phù hợp với sở thích và phong cách của bạn.</p>
+                            <!--<div class="about__author position__relative d-flex align-items-center">
                                 <div class="about__author--left">
                                     <h4 class="about__author--name">Nguyễn Sĩ Lợi</h4>
                                     <span class="about__author--rank">Quản lý Bạch Dương</span>
-                                </div>
+                                </div> 
                                 <img style="height:70px" class="about__author--signature display-block" src="./view/assets/img/logo/logo2.jpg" alt="signature">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -120,11 +120,12 @@
                     <div class="row">
                         <div class="col-lg-2 col-md-4 col-sm-6 col-6 custom-col">
                             <div class="team__items text-center">
+                                <br>
                                 <div class="team__thumb">
                                     <img class="team__thumb--img border-radius-50" src="./view/assets/img/other/avt1.jpg" alt="">
                                 </div>
                                 <div class="team__content ">
-                                    <h3 class="team__content--title">Nguyễn Hữu Nghĩa PS27599</h3>
+                                    <h3 class="team__content--title">Hữu Nghĩa </h3>
                                     <span class="team__content--subtitle">Trưởng nhóm</span>
                                     <ul class="team__social d-flex justify-content-center align-items-center">
                                         <li class="team__social--list">
@@ -159,17 +160,18 @@
                                                 <span class="visually-hidden">Youtube</span>
                                             </a>
                                         </li>
-                                    </ul>
+                                    </ul> 
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 col-6 custom-col">
                             <div class="team__items text-center">
+                                <br>
                                 <div class="team__thumb">
                                     <img class="team__thumb--img border-radius-50" src="./view/assets/img/other/avt2.png" alt="">
                                 </div>
                                 <div class="team__content">
-                                    <h3 class="team__content--title">Nguyễn Thị Ngọc Trân PS26576</h3>
+                                    <h3 class="team__content--title"> Ngọc Trân</h3>
                                     <span class="team__content--subtitle">Thành viên</span>
                                     <ul class="team__social d-flex justify-content-center align-items-center">
                                         <li class="team__social--list">
@@ -210,12 +212,13 @@
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 col-6 custom-col">
                             <div class="team__items text-center">
+                                <br>
                                 <div class="team__thumb">
                                     <img class="team__thumb--img border-radius-50" src="./view/assets/img/other/loi2.jpg" alt="">
                                 </div>
                                 <div class="team__content ">
-                                    <h3 class="team__content--title">Nguyễn Huynh PS27711</h3>
-                                    <br>
+                                    <h3 class="team__content--title">Nguyễn Huynh </h3>
+                                
                                     <span class="team__content--subtitle">Thành viên</span>
                                     <ul class="team__social d-flex justify-content-center align-items-center">
                                         <li class="team__social--list">
@@ -256,11 +259,12 @@
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 col-6 custom-col">
                             <div class="team__items text-center">
+                                <br>
                                 <div class="team__thumb">
                                     <img class="team__thumb--img border-radius-50" src="./view/assets/img/other/review4.jpg" alt="">
                                 </div>
                                 <div class="team__content">
-                                    <h3 class="team__content--title">Lan Phùng Thị <br> PS27457</h3>
+                                    <h3 class="team__content--title">Lan Phùng </h3>
                                     <span class="team__content--subtitle">Thành viên</span>
                                     <ul class="team__social d-flex justify-content-center align-items-center">
                                         <li class="team__social--list">
@@ -301,11 +305,12 @@
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 col-6 custom-col">
                             <div class="team__items text-center">
+                                <br>
                                 <div class="team__thumb">
                                     <img class="team__thumb--img border-radius-50" src="./view/assets/img/other/loi.jpg" alt="">
                                 </div>
                                 <div class="team__content">
-                                    <h3 class="team__content--title">Nguyễn Sĩ Lợi PS27840</h3>
+                                    <h3 class="team__content--title">Nguyễn Hiếu</h3>
                                     <span class="team__content--subtitle">Thành viên</span>
                                     <ul class="team__social d-flex justify-content-center align-items-center">
                                         <li class="team__social--list">
@@ -346,11 +351,12 @@
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 col-6 custom-col">
                             <div class="team__items text-center">
+                                <br>
                                 <div class="team__thumb">
                                     <img class="team__thumb--img border-radius-50" src="./view/assets/img/other/avt6.jpg" alt="">
                                 </div>
                                 <div class="team__content">
-                                    <h3 class="team__content--title">Huỳnh Nguyễn Thạch Phát PS27741</h3>
+                                    <h3 class="team__content--title">Huỳnh Nguyễn</h3>
                                     <span class="team__content--subtitle">Thành viên</span>
                                     <ul class="team__social d-flex justify-content-center align-items-center">
                                         <li class="team__social--list">
@@ -410,7 +416,7 @@
                                 </div>
                                 <div class="testimonial__items--content">
                                     <h3 class="testimonial__items--title">Thạch Phát</h3>
-                                    <span class="testimonial__items--subtitle">fashion watch</span>
+                                    <!--<span class="testimonial__items--subtitle">fashion watch</span> -->
                                     <p class="testimonial__items--desc">Rất hài lòng với trải nghiệm mua sắm trên website này. Họ có một bộ sưu tập đa dạng các loại đồng hồ đpưn giản đến sang trọng. Chất lượng sản phẩm rất tốt và giá cả cũng rất hợp lý. </p>
                                     <ul class="rating testimonial__rating d-flex justify-content-center">
                                         <li class="rating__list">
@@ -460,7 +466,7 @@
                                 </div>
                                 <div class="testimonial__items--content">
                                     <h3 class="testimonial__items--title">Ngọc Trân</h3>
-                                    <span class="testimonial__items--subtitle">fashion</span>
+                                    
                                     <p class="testimonial__items--desc">Tôi rất thích cách họ chăm sóc khách hàng, từ việc tư vấn  cho đến hỗ trợ sau khi mua hàng. Đặc biệt, dịch vụ giao hàng nhanh chóng và sản phẩm đến tay tôi luôn đúng theo như tôi mong đợi. </p>
                                     <ul class="rating testimonial__rating d-flex justify-content-center">
                                         <li class="rating__list">
@@ -510,7 +516,7 @@
                                 </div>
                                 <div class="testimonial__items--content">
                                     <h3 class="testimonial__items--title">Minh Dương</h3>
-                                    <span class="testimonial__items--subtitle">fashion</span>
+                                    <!--<span class="testimonial__items--subtitle">fashion</span>-->
                                     <p class="testimonial__items--desc">Dịch vụ khách hàng tận tâm và nhiệt tình, tôi đã nhận được sự hỗ trợ tuyệt vời từ đội ngũ nhân viên. Tôi chắc chắn sẽ tiếp tục mua sắm ở đây và giới thiệu cho mọi người. </p>
                                     <ul class="rating testimonial__rating d-flex justify-content-center">
                                         <li class="rating__list">
@@ -560,7 +566,7 @@
                                 </div>
                                 <div class="testimonial__items--content">
                                     <h3 class="testimonial__items--title">Nguyễn Huynh</h3>
-                                    <span class="testimonial__items--subtitle">fashion</span>
+                                    
                                     <p class="testimonial__items--desc">Giao hàng nhanh chóng và đóng gói cẩn thận. Tôi đã mua nhiều lần và luôn hài lòng với dịch vụ của họ. </p>
                                     <ul class="rating testimonial__rating d-flex justify-content-center">
                                         <li class="rating__list">

@@ -31,7 +31,7 @@
     <div class="screen-overlay"></div>
     <aside class="navbar-aside" id="offcanvas_aside">
         <div class="aside-top">
-            <a href="index.php" class="brand-wrap">
+            <a href ="http://localhost/suruchi/index.php" class="brand-wrap">
                 <img src="./view/assets/imgs/theme/logo2.jpg" class="logo" alt="BẠCH DƯƠNG Dashboard">
             </a>
             <div>

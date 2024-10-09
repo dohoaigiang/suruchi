@@ -149,7 +149,7 @@
                         <ul class="header__shipping--wrapper d-flex">
                             <li class="header__shipping--text text-white">Chào mừng bạn đến với BẠCH DƯƠNG</li>
                             <li class="header__shipping--text text-white d-sm-2-none"><img class="header__shipping--text__icon" src="./view/assets/img/icon/bus.png" alt="bus-icon"> Theo dõi đơn hàng của bạn</li>
-                            <li class="header__shipping--text text-white d-sm-2-none"><img class="header__shipping--text__icon" src="./view/assets/img/icon/email.png" alt="email-icon"> <a class="header__shipping--text__link" href="mailto:loinguyen.cool@gmail.com">loinguyen.cool@gmail.com</a></li>
+                            <li class="header__shipping--text text-white d-sm-2-none"><img class="header__shipping--text__icon" src="./view/assets/img/icon/email.png" alt="email-icon"> <a class="header__shipping--text__link" href="mailto:hoaigiang@gmail.com">hoaigiang@gmail.com</a></li>
                         </ul>
                     </div>
                     <!-- <div class="language__currency d-none d-lg-block">

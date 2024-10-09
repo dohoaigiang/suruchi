@@ -277,8 +277,13 @@ if (!isset($_GET['pg'])) {
       }
       $sosp = 16;
       $dssp = get_dssp($kyw, $iddm, $pg, $sosp);
-      $tongsp = get_dssp_all();
-      $hienthist = hien_thi_st($tongsp, $sosp);
+      if($iddm!=0){
+        $tongsp=get_dssp_by_iddm($iddm);
+        $hienthist=hien_thi_st_by_iddm($tongsp, $sosp, $iddm);
+      }else{
+        $tongsp=get_dssp_all();
+        $hienthist=hien_thi_st($tongsp, $sosp);
+      } 
       include "view/shop.php";
       break;
     case 'product-detail':

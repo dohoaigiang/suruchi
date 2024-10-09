@@ -231,8 +231,8 @@
                             </div>
                             <div class="testimonial__items--content">
                                 <h3 class="testimonial__items--title">'.$user_name.'</h3>
-                                <span class="testimonial__items--subtitle">fashion</span>
-                                <p class="testimonial__items--desc"> '.$content.'</p>
+                                <span class="testimonial__items--subtitle">Đồng hồ</span>
+                                <p class="testimonial__items--desc"> '.$content.'</shp>
                                 '.$html_rating.'
                             </div>
                         </div>
@@ -252,8 +252,8 @@
                                     <div class="col">
                                         <div class="slider__content">
                                             <p class="slider__content--desc desc1 mb-15"><img class="slider__text--shape__icon" src="./view/assets/img/icon/text-shape-icon.png" alt="text-shape-icon">Bộ Sưu Tập Mới</p> 
-                                            <h2 style="color:white" class="slider__content--maintitle h1">Bộ Sưu Tập Thời Trang<br>
-                                                Tuyệt Vời Nhất Năm 2023</h2>
+                                            <h2 style="color:white" class="slider__content--maintitle h1">Bộ Sưu Tập đồng hồ<br>
+                                                Tuyệt Vời Nhất Năm 2024</h2>
                                             <p style="color:white" class="slider__content--desc desc2 d-sm-2-none mb-40">Giảm tới 40% các mặt hàng<br>
                                                 Nhanh chóng mua ngay !</p>    
                                             <a class="slider__btn primary__btn" href="index.php?pg=shop">Mua Ngay
@@ -399,6 +399,7 @@
     <section class="product__section section--padding pt-0">
         <div class="container-fluid">
             <div class="section__heading text-center mb-35">
+                <br>
                 <h2 class="section__heading--maintitle">SẢN PHẨM MỚI </h2>
             </div>
             <ul class="product__tab--one product__tab--primary__btn d-flex justify-content-center mb-50">
@@ -540,15 +541,15 @@
             <div class="testimonial__section--inner testimonial__swiper--activation swiper">
                 <div class="swiper-wrapper">
                     <?=$html_cmt;?>
-                    <!-- <div class="swiper-slide">
+                    <div class="swiper-slide">
                         <div class="testimonial__items text-center">
                             <div class="testimonial__items--thumbnail">
                                 <img class="testimonial__items--thumbnail__img border-radius-50" src="./view/assets/img/other/testimonial-thumb1.png" alt="testimonial-img">
                             </div>
                             <div class="testimonial__items--content">
                                 <h3 class="testimonial__items--title">Thạch Phát</h3>
-                                <span class="testimonial__items--subtitle">fashion</span>
-                                <p class="testimonial__items--desc">Sản phẩm rất chât lượng, tôi rất hài lòng với sản phẩm này</p>
+                                <!--<span class="testimonial__items--subtitle">Đồng hồ</span>-->
+                                <p class="testimonial__items--desc">Sản phẩm rất chất lượng, tôi rất hài lòng với sản phẩm này</p>
                                 <ul class="rating testimonial__rating d-flex justify-content-center">
                                     <li class="rating__list">
                                         <span class="rating__list--icon">
@@ -597,7 +598,7 @@
                             </div>
                             <div class="testimonial__items--content">
                                 <h3 class="testimonial__items--title">Ngọc Trân</h3>
-                                <span class="testimonial__items--subtitle">fashion</span>
+                                <!--<span class="testimonial__items--subtitle">Đồng hồ</span>-->
                                 <p class="testimonial__items--desc">Nhân viên rất nhiệt tình, tôi sẽ mua thêm lần nữa!!</p>
                                 <ul class="rating testimonial__rating d-flex justify-content-center">
                                     <li class="rating__list">
@@ -647,7 +648,7 @@
                             </div>
                             <div class="testimonial__items--content">
                                 <h3 class="testimonial__items--title">Minh Dương</h3>
-                                <span class="testimonial__items--subtitle">fashion</span>
+                                <!--<span class="testimonial__items--subtitle">Đồng hồ</span>-->
                                 <p class="testimonial__items--desc">Sản phẩm khá tốt, chất liệu ổn, đã mua ở đây 5 lần và vẫn rất hài lòng!!</p>
                                 <ul class="rating testimonial__rating d-flex justify-content-center">
                                     <li class="rating__list">
@@ -697,7 +698,7 @@
                             </div>
                             <div class="testimonial__items--content">
                                 <h3 class="testimonial__items--title">Nguyễn Huynh</h3>
-                                <span class="testimonial__items--subtitle">fashion</span>
+                                
                                 <p class="testimonial__items--desc">Nhân viên rất nhiệt tình, tôi sẽ mua thêm lần nữa!!</p>
                                 <ul class="rating testimonial__rating d-flex justify-content-center">
                                     <li class="rating__list">
@@ -739,16 +740,29 @@
                                 </ul>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="testimonial__pagination swiper-pagination"></div>
             </div>
         </div>
     </section>
     <!-- End testimonial section -->
-
+    <!--<section class="blog__section section--padding pt-0">
+        <div class="container-fluid">
+            <div class="section__heading text-center mb-40">
+                <h2 class="section__heading--maintitle">Tin Tức</h2>
+            </div>
+            <div class="blog__section--inner blog__swiper--activation swiper">
+                <div class="swiper-wrapper">
+                    <?=$html_blog;?>
+                </div>
+                <div class="swiper__nav--btn swiper-button-next"></div>
+                <div class="swiper__nav--btn swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>-->
     <!-- Start banner section -->
-    <!-- <section class="banner__section section--padding pt-0">
+    <section class="banner__section section--padding pt-0">
         <div class="container-fluid">
             <div class="row row-cols-1">
                 <div class="col">
@@ -768,28 +782,15 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section> 
     <!-- End banner section -->
 
     <!-- Start blog section -->
-    <section class="blog__section section--padding pt-0">
-        <div class="container-fluid">
-            <div class="section__heading text-center mb-40">
-                <h2 class="section__heading--maintitle">Tin Tức</h2>
-            </div>
-            <div class="blog__section--inner blog__swiper--activation swiper">
-                <div class="swiper-wrapper">
-                    <?=$html_blog;?>
-                </div>
-                <div class="swiper__nav--btn swiper-button-next"></div>
-                <div class="swiper__nav--btn swiper-button-prev"></div>
-            </div>
-        </div>
-    </section>
+    
     <!-- End blog section -->
 
 </main>
-<!-- <script type="text/javascript">
+<script type="text/javascript">
   (function(d, t) {
       var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
       v.onload = function() {
@@ -801,8 +802,8 @@
       }
       v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
   })(document, 'script');
-</script> -->
-<script type="text/javascript">
+</script>
+<!-- <script type="text/javascript">
   (function(d, t) {
       var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
       v.onload = function() {
@@ -814,4 +815,4 @@
       }
       v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
   })(document, 'script');
-</script>
+</script> -->

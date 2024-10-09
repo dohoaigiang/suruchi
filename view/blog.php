@@ -28,7 +28,7 @@
                         <div class="breadcrumb__content text-center">
                             <h1 class="breadcrumb__content--title text-white mb-25"><?=$title;?></h1>
                             <ul class="breadcrumb__content--menu d-flex justify-content-center">
-                                <li class="breadcrumb__content--menu__items"><a class="text-white" href="index.html">Trang chủ</a></li>
+                                <li class="breadcrumb__content--menu__items"><a class="text-white" href="index.php">Trang chủ</a></li>
                                 <li class="breadcrumb__content--menu__items"><span class="text-white">Tin tức</span></li>
                             </ul>
                         </div>
@@ -44,7 +44,7 @@
                 <div class="row row-md-reverse">
                     <div class="col-xxl-3 col-xl-4 col-lg-4">
                         <div class="blog__sidebar--widget left widget__area">
-                            <!-- <div class="single__widget widget__search widget__bg">
+                            <div class="single__widget widget__search widget__bg">
                                 <h2 class="widget__title h3">Tìm kiếm</h2>
                                 <form class="widget__search--form" action="#">
                                     <label>
@@ -54,7 +54,7 @@
                                         <svg class="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="20.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
                                     </button>
                                 </form>
-                            </div> -->
+                            </div> 
                             <div class="single__widget widget__bg">
                                 <h2 class="widget__title h3">Danh mục</h2>
                                 <ul class="widget__categories--menu">
@@ -71,21 +71,21 @@
                             <div class="pagination__area bg__gray--color">
                                 <nav class="pagination justify-content-center">
                                     <ul class="pagination__wrapper d-flex align-items-center justify-content-center">
-                                        <!-- <li class="pagination__list">
+                                        <li class="pagination__list">
                                             <a href="blog.html" class="pagination__item--arrow  link ">
                                                 <svg xmlns="http://www.w3.org/2000/svg"  width="22.51" height="20.443" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M244 400L100 256l144-144M120 256h292"/></svg>
                                                 <span class="visually-hidden">pagination arrow</span>
                                             </a>
-                                        <li> -->
+                                        <li>
                                         <?php
                                             echo $hienthitintuc;
                                         ?>
-                                        <!-- <li class="pagination__list">
+                                        <li class="pagination__list">
                                             <a href="blog.html" class="pagination__item--arrow  link ">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22.51" height="20.443" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
                                                 <span class="visually-hidden">pagination arrow</span>
                                             </a>
-                                        <li> -->
+                                        <li> 
                                     </ul>
                                 </nav>
                             </div>

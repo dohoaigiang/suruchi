@@ -21,9 +21,9 @@
         <!-- Start contact section -->
         <section class="contact__section section--padding">
             <div class="container">
-                <div class="section__heading text-center mb-40">
+                <!--<div class="section__heading text-center mb-40">
                     <h2 class="section__heading--maintitle">Liên lạc</h2>
-                </div>
+                </div>-->
                 <div class="main__contact--area position__relative">
                     
                     <div class="contact__form">

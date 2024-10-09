@@ -101,9 +101,15 @@
         }
         $soluongsp=8;
 
-        $productlist=get_dssp_admin($kyw, $iddm, $page, $soluongsp); 
-        $tongsosp=get_dssp_all();
-        $hienthisotrang=hien_thi_so_trang($tongsosp, $soluongsp);
+        $productlist=get_dssp_admin($kyw, $iddm, $page, $soluongsp);
+        if($iddm!=0){
+          $tongsosp=get_dssp_by_iddm($iddm);
+          $hienthisotrang=hien_thi_so_trang_by_iddm($tongsosp, $soluongsp, $iddm);
+        }else{
+          $tongsosp=get_dssp_all();
+          $hienthisotrang=hien_thi_so_trang($tongsosp, $soluongsp);
+        } 
+        
         include "view/page-products-list.php";
         break;
       case 'updateproduct':

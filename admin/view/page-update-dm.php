@@ -1,9 +1,18 @@
 <?php
     // cataloglist
     $catalog_html='';
+    $c_id = $_GET['id'];
+    $select_name = '';
+    $select_img = '';
     foreach ($cataloglist as $item) {
-        extract($item);
-        $linkedit='<a class="dropdown-item" href="index.php?pg=updatedmform&id='.$id.'">Sửa Danh Mục</a>';
+        $id = $item['id'];
+        $img = $item['img'];
+        $name = $item['name'];
+        if($id == $c_id) {
+            $select_name = $name;
+            $select_img = $img;
+        }
+        $linkedit='<a class="dropdown-item" href="index.php?pg=page-update-dm&id='.$id.'">Sửa Danh Mục</a>';
         $linkdel='<a class="dropdown-item text-danger" href="index.php?pg=deletedm&id='.$id.'">Xóa</a>';
         $catalog_html.='<tr>
                             <td>'.$id.'</td>    
@@ -23,9 +32,8 @@
     }
 
     if(is_array($dm)&&(count($dm)>0)){
-        extract($dm);
-        $idupdate=$id;
-        $imgpath=IMG_PATH_ADMIN.$img;
+        $idupdate=$c_id;
+        $imgpath=IMG_PATH_ADMIN.$select_img;
         if(is_file($imgpath)){
           $img=$imgpath;
           $old_img=basename($imgpath);
@@ -33,14 +41,12 @@
           $img="";
         }
       }
-    
 ?>
 
 <section class="content-main">
     <div class="content-header">
         <div>
             <h2 class="content-title card-title">Danh mục </h2>
-            <p>Thêm, chỉnh sửa hoặc xóa một danh mục</p>
         </div>
         <div>
             <input type="text" placeholder="Tìm kiếm danh mục" class="form-control bg-white">
@@ -53,7 +59,7 @@
                     <form action="index.php?pg=updatedm" method="POST" enctype="multipart/form-data">
                         <div class="mb-4">
                             <label for="product_slug" class="form-label">Tên Danh mục</label>
-                            <input name="name" type="text" placeholder="Nhập tên danh mục" class="form-control" id="product_slug" value="<?=($name!="")?$name:"";?>"/>
+                            <input name="name" type="text" placeholder="Nhập tên danh mục" class="form-control" id="product_slug" value="<?=($select_name!="")?$select_name:"";?>"/>
                         </div>
                         <div class="card mb-4">
                             <div class="card-header">
@@ -61,7 +67,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="input-upload">
-                                    <img src="<?=$img?>" alt="">
+                                    <img src="<?=$imgpath?>" alt="">
                                     <input name="img" class="form-control" type="file">
                                 </div>  
                             </div>

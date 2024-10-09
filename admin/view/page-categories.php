@@ -35,7 +35,6 @@
     <div class="content-header">
         <div>
             <h2 class="content-title card-title">Danh mục </h2>
-            <p>Thêm, chỉnh sửa hoặc xóa một danh mục</p>
         </div>
     </div>
     <div class="card">

@@ -37,7 +37,18 @@ function hien_thi_st($dssp, $sosp){
     }
     return $html_strang;
 }
-
+function hien_thi_st_by_iddm($dssp, $sosp, $iddm){
+    $tongsp=count($dssp);
+    $strang= ceil($tongsp/$sosp);
+    $html_strang="";
+    
+    for ($i=1; $i <= $strang ; $i++) { 
+        $html_strang.='<li class="pagination__list">
+                        <a href="index.php?pg=shop&page='.$i.'&iddm='.$iddm.'" class="pagination__item pagination__item--current">'.$i.'</a>
+                    </li>';
+    }
+    return $html_strang;
+}
 function get_dssp($kyw, $iddm, $pg, $sosp){    
     $begin = ($pg - 1) * $sosp;
     $sql = "SELECT * FROM product WHERE 1";
@@ -370,6 +381,19 @@ function hien_thi_so_trang($productlist, $soluongsp){
     return $html_sotrang;
 }
 
+function hien_thi_so_trang_by_iddm($productlist, $soluongsp, $iddm){
+    $tong_sp=count($productlist);
+    $sotrang= ceil($tong_sp/$soluongsp);
+    $html_sotrang="";
+    
+    for ($i=1; $i <= $sotrang ; $i++) { 
+        $html_sotrang.='<li class="page-item active">
+                        <a class="page-link" href="index.php?pg=products-list&page='.$i.'&iddm='.$iddm.'">'.$i.'</a>
+                        </li>';
+    }
+    return $html_sotrang;
+}
+
 function get_dssp_admin($kyw, $iddm, $page, $soluongsp){
     $batdau = ($page - 1) * $soluongsp;
     $sql = "SELECT * FROM product WHERE 1";
@@ -381,7 +405,12 @@ function get_dssp_admin($kyw, $iddm, $page, $soluongsp){
         $sql .=" AND name LIKE '%".$kyw."%'";
     }
 
-    $sql .= " ORDER BY id ASC LIMIT " . $batdau . "," . $soluongsp;
+    $sql .= " ORDER BY id DESC LIMIT " . $batdau . "," . $soluongsp;
+    return pdo_query($sql);
+}
+
+function get_dssp_by_iddm($iddm){
+    $sql = " SELECT * FROM product WHERE iddm = ".$iddm." ORDER BY id ASC ";
     return pdo_query($sql);
 }
 
