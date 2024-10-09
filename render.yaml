@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-php-app
+    env: ubuntu
+    buildCommand: |
+      sudo apt-get update
+      sudo apt-get install -y php libapache2-mod-php
+    startCommand: php -S 0.0.0.0:10000
+    plan: free
