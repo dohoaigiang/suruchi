@@ -5,5 +5,5 @@ services:
     buildCommand: |
       sudo apt-get update
       sudo apt-get install -y php libapache2-mod-php
-    startCommand: php -S 0.0.0.0:10000
+    startCommand: php -S localhost:8000
     plan: free
