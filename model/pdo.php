@@ -7,18 +7,18 @@ function pdo_get_connection()
 {
 
     
-    // $dbhost = 'localhost';
-    // $dbname = 'suruchi'; // 'suruchi'
-    // $username = 'root'; // 'database_suruchi'
-    // $password = ''; // '12345'
+    $dbhost = 'mysql';
+    $dbname = 'suruchi';
+    $username = 'root';
+    $password = '';
     
-    $dbhost = getenv('DATABASE_HOST');
-    $dbname = getenv('DATABASE_NAME'); // 'suruchi'
-    $username = getenv('DATABASE_USER'); // 'database_suruchi'
-    $password = getenv('DATABASE_PASSWORD'); // '12345'
+    // $dbhost = getenv('DATABASE_HOST');
+    // $dbname = getenv('DATABASE_NAME'); // 'suruchi'
+    // $username = getenv('DATABASE_USER'); // 'database_suruchi'
+    // $password = getenv('DATABASE_PASSWORD'); // '12345'
 
     // Tạo chuỗi kết nối PDO
-    $dburl = "mysql:host=$dbhost;dbname=$dbname;charset=utf8mb4;port=3306";
+    $dburl = "mysql:host=$dbhost;dbname=$dbname;charset=utf8;port=3306";
 
     // Tạo kết nối PDO
     try {
