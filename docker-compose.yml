@@ -8,10 +8,10 @@ services:
     # env_file:
     #   - .env
     environment:
-      - DATABASE_HOST=mysql
-      - DATABASE_USER=root
+      - DATABASE_HOST='mysql'
+      - DATABASE_USER='root'
       - DATABASE_PASSWORD=
-      - DATABASE_NAME=mydatabase
+      - DATABASE_NAME='suruchi'
 
   mysql:
     image: mysql:5.7
