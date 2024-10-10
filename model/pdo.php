@@ -5,12 +5,24 @@
  */
 function pdo_get_connection()
 {
-    $dburl = "mysql:host=127.0.0.1;dbname=suruchi;charset=utf8;port=3306";
-    $username = 'root';
-    $password = '';
+    $dbhost = getenv('DATABASE_HOST'); // '127.168.0.2'
+    $dbname = getenv('DATABASE_NAME'); // 'suruchi'
+    $username = getenv('DATABASE_USER'); // 'database_suruchi'
+    $password = getenv('DATABASE_PASSWORD'); // '12345'
 
-    $conn = new PDO($dburl, $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    // Tạo chuỗi kết nối PDO
+    $dburl = "mysql:host=$dbhost;dbname=$dbname;charset=utf8;port=3306";
+
+    // Tạo kết nối PDO
+    try {
+        $conn = new PDO($dburl, $username, $password);
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    } catch (PDOException $e) {
+        // Xử lý lỗi kết nối
+        echo "Connection failed: " . $e->getMessage();
+        exit();
+    }
+
     return $conn;
 }
 /**
