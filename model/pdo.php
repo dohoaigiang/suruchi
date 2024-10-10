@@ -6,12 +6,12 @@
 function pdo_get_connection()
 {
 
-    /**
-    *$dbhost = 'localhost';
-    *$dbname = 'suruchi'; // 'suruchi'
-    *$username = 'root'; // 'database_suruchi'
-    *$password = ''; // '12345'
-     */
+    
+    // $dbhost = 'localhost';
+    // $dbname = 'suruchi'; // 'suruchi'
+    // $username = 'root'; // 'database_suruchi'
+    // $password = ''; // '12345'
+    
     $dbhost = getenv('DATABASE_HOST');
     $dbname = getenv('DATABASE_NAME'); // 'suruchi'
     $username = getenv('DATABASE_USER'); // 'database_suruchi'
