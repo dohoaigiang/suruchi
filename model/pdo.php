@@ -15,7 +15,7 @@ function pdo_get_connection()
     $dbhost = getenv('DATABASE_HOST');
     $dbname = getenv('DATABASE_NAME');
     $username = getenv('DATABASE_USER');
-    $password = getenv('DATABASE_PASSWORD');
+    $password = '';
 
     // Tạo chuỗi kết nối PDO
     $dburl = "mysql:host=$dbhost;dbname=$dbname;charset=utf8;port=3306";
