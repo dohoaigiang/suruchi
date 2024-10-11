@@ -7,7 +7,7 @@ function pdo_get_connection()
 {
 
     
-    $dbhost = 'host';
+    $dbhost = 'db';
     $dbname = 'suruchi';
     $username = 'root';
     $password = '';
