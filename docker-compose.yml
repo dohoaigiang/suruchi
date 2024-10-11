@@ -8,15 +8,15 @@ services:
     # env_file:
     #   - .env
     environment:
-      - DATABASE_HOST=mysql
+      - DATABASE_HOST=host
       - DATABASE_USER=root
       - DATABASE_PASSWORD=
       - DATABASE_NAME=suruchi
     depends_on:
-      - mysql
+      - host
 
-  mysql:
-    image: mysql:5.7
+  host:
+    image: mysql:lastest
     environment:
       MYSQL_ROOT_PASSWORD=
       MYSQL_DATABASE=suruchi # ${DATABASE_NAME}
