@@ -5,13 +5,13 @@ services:
     build: .
     ports:
       - "80:80"
-    # env_file:
-    #   - .env
-    environment:
-      - DATABASE_HOST=db
-      - DATABASE_USER=root
-      - DATABASE_PASSWORD=
-      - DATABASE_NAME=suruchi
+    env_file:
+      - .env
+    # environment:
+    #   - DATABASE_HOST=db
+    #   - DATABASE_USER=root
+    #   - DATABASE_PASSWORD=
+    #   - DATABASE_NAME=suruchi
     depends_on:
       - db
 
